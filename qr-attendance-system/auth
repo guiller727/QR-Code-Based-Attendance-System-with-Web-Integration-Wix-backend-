@@ -2,7 +2,7 @@ import os
 from tkinter import *
 from PIL import Image, ImageTk
 from tkinter import messagebox
-from gui import build_gui
+from attendance_manager import build_gui
 
 class Login:
     def __init__(self, root):
