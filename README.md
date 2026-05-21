@@ -139,4 +139,3 @@ The system follows a client–server model:
 ├── diagrams/
 │   ├── 01_block_diagram_system_overview.png
 │   └── 02_flowchart_attendance_system_logic.png
-└── README.md
