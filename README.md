@@ -106,7 +106,8 @@ The system follows a client–server model:
 
 ## ⚠️ Limitations
 
-- Static Authentication – Uses hardcoded credentials (not scalable)  
+- Static Authentication – Uses hardcoded credentials (username and password are set to `admin / admin`), not scalable  
+- No Forgot Password Feature – Users cannot recover or reset credentials  
 - Internet Dependency – Requires API connection to function  
 - API Latency – Network delays may affect responsiveness  
 - No Role Management – Only single admin access supported  
