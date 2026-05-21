@@ -128,15 +128,15 @@ The system follows a client–server model:
 ## 📂 Project Structure
 
 ```
-qr-attendance-system/
-│── login.py                 # Login GUI and authentication logic
-│── attendance_manager.py   # Main system (API, GUI, QR, export)
+├── attendance_manager.py    # Main system (API, GUI, QR, export)
+├── auth.py                  # Login GUI and authentication logic
 │
-│── assets/
+├── assets/
 │   ├── login_background.png
 │   ├── submit_button.png
 │   └── qr_icon.png
 │
-│── diagrams/
+├── diagrams/
 │   ├── 01_block_diagram_system_overview.png
-│   └── 02_flowchart_color_detection_logic.png
+│   └── 02_flowchart_attendance_system_logic.png
+└── README.md
