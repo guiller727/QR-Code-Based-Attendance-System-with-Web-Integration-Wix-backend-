@@ -12,10 +12,10 @@ The architecture follows a modular design, separating authentication and attenda
 ## ⚙️ System Architecture
 
 ### Block Diagram
-![Block Diagram](assets/01_block_diagram_system_overview.png)
+![Block Diagram](diagrams/01_block_diagram_system_overview.png)
 
 ### Flowchart
-![Flowchart](assets/02_flowchart_color_detection_logic.png)
+![Flowchart](diagrams/02_flowchart_color_detection_logic.png)
 
 ---
 
