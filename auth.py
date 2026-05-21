@@ -13,9 +13,9 @@ class Login:
 
         # Path to images
         script_dir = os.path.dirname(__file__)
-        bg_path = os.path.join(script_dir, "images", "login_background.png")
-        bt_path = os.path.join(script_dir, "images", "submit_button.png")
-
+        bg_path = os.path.join(script_dir, "assets", "login_background.png")
+        bt_path = os.path.join(script_dir, "assets", "submit_button.png")
+        
         # Load and display background image on left
         self.bg_image_raw = Image.open(bg_path).resize((600, 600))
         self.bg = ImageTk.PhotoImage(self.bg_image_raw)
@@ -23,7 +23,7 @@ class Login:
         self.bg_label.place(x=0, y=0, width=600, height=600)
 
         #AppIcon
-        icon_img_path = os.path.join(script_dir, "images", "qr_icon.png")
+        icon_img_path = os.path.join(script_dir, "assets", "qr_icon.png")
         icon_image = PhotoImage(file=icon_img_path)
         self.root.iconphoto(False, icon_image)
 
