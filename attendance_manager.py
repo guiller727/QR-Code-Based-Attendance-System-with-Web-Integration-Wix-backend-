@@ -37,7 +37,7 @@ def build_gui(parent):
     root.resizable(False, False) 
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    icon_img_path = os.path.join(script_dir, "images", "qr_icon.png")
+    icon_img_path = os.path.join(script_dir, "assets", "qr_icon.png")
     icon_image = PhotoImage(file=icon_img_path)
     root.iconphoto(False, icon_image)
 
@@ -272,7 +272,7 @@ def build_gui(parent):
 
     def set_window_icon(window):
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        icon_img_path = os.path.join(script_dir, "images", "icon.png")
+        icon_img_path = os.path.join(script_dir, "assets", "qr_icon.png")
         try:
             icon_image = tk.PhotoImage(file=icon_img_path)
             window.iconphoto(False, icon_image)
