@@ -15,7 +15,7 @@ The architecture follows a modular design, separating authentication and attenda
 ![Block Diagram](diagrams/01_block_diagram_system_overview.png)
 
 ### Flowchart
-![Flowchart](diagrams/02_flowchart_color_detection_logic.png)
+![Flowchart](diagrams/02_flowchart_attendance_system_logic.png)
 
 ---
 
