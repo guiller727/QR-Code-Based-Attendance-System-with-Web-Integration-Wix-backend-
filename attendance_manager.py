@@ -1,13 +1,17 @@
-import tkinter as tk
-from tkinter import ttk, messagebox, filedialog, PhotoImage
-import requests, webbrowser, threading, time
-from openpyxl import Workbook
-from tkinter import font
-from datetime import datetime, timedelta
+import os
+import threading
+import time
+import webbrowser
 from collections import defaultdict
-import qrcode, os #pip install qrcode[pil]
+from datetime import datetime, timedelta
+from tkinter import filedialog, font, messagebox, ttk, PhotoImage
+import tkinter as tk
+
+import qrcode  # pip install qrcode[pil]
+import requests
+from dotenv import load_dotenv  # pip install python-dotenv
+from openpyxl import Workbook
 from PIL import Image, ImageTk
-from dotenv import load_dotenv #pip install python-dotenv
 
 load_dotenv()
 
